@@ -10,10 +10,10 @@ class LastButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 130, vertical: 20,),
+      padding: const EdgeInsets.symmetric(horizontal: 130, vertical: 20,),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.all(
+          borderRadius: const BorderRadius.all(
             Radius.circular(20),
           ),
           color: color,

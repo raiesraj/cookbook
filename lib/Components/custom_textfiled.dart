@@ -4,11 +4,11 @@ import 'package:google_fonts/google_fonts.dart';
 class TextFiled extends StatelessWidget {
   final String hintText;
   final dynamic onChaged;
-  final bool obScure;
+  final bool obSecure;
 
 
   const TextFiled(
-      {Key? key, required this.hintText, this.onChaged, required this.obScure, })
+      {Key? key, required this.hintText, this.onChaged, required this.obSecure, })
       : super(key: key);
 
   @override

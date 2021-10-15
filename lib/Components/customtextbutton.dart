@@ -16,19 +16,15 @@ class CustomTextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 10, vertical: 17),
-      decoration: BoxDecoration(
-        boxShadow: [
-          BoxShadow(
-            blurRadius: 2,
-            spreadRadius: 1,
-            color: Colors.grey,
-          ),
-        ],
+      margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 17),
+      decoration:  BoxDecoration(
+
         //border: Border.all(color: Colors.grey),
-        borderRadius: BorderRadius.all(
+        borderRadius: const BorderRadius.all(
           Radius.circular(14),
+
         ),
+        border: Border.all(color: Colors.grey),
         color: Colors.white,
       ),
       child: Padding(
@@ -41,7 +37,7 @@ class CustomTextButton extends StatelessWidget {
                 backgroundImage: AssetImage(imagePath),
                 radius: 18,
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               Text(

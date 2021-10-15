@@ -3,7 +3,7 @@ import 'package:cookbook/Components/lastbutton.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../Components/CustomTextFiled.dart';
+import '../../Components/custom_textfiled.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({Key? key}) : super(key: key);
@@ -66,14 +66,14 @@ class _SignupScreenState extends State<SignupScreen> {
                 ),
                 const TextFiled(
                   hintText: 'Email',
-                  obScure: false,
+                  obSecure: false,
                 ),
                 const SizedBox(
                   height: 15,
                 ),
                 const TextFiled(
                   hintText: 'Password',
-                  obScure: true,
+                  obSecure: true,
                 ),
                 const SizedBox(
                   height: 20,
@@ -103,7 +103,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     )),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 5,
                 ),
                 Text(

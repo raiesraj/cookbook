@@ -1,8 +1,6 @@
-import 'package:cookbook/Introductionscreen/introduction_screen.dart';
 import 'package:cookbook/Screens/SignupScreen/signup_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'SplashScreen/on_boarding_screen.dart';
 
 
 void main() {
@@ -17,8 +15,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'COOK Book',
       home: SignupScreen(),
+
     );
   }
 }
